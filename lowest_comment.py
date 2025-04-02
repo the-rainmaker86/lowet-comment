@@ -2,7 +2,7 @@ import praw
 from script import reddit 
 
 # Get your own Redditor instance.
-me = reddit.redditor("junior_dos_nachos")
+me = reddit.redditor("INSERT_USERNAME_HERE")
 
 # Retrieve your comments; you might limit this if you have many.
 my_comments = list(me.comments.controversial(limit=None))
